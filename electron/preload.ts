@@ -9,6 +9,7 @@ contextBridge.exposeInMainWorld('electron', {
 });
 contextBridge.exposeInMainWorld('electronFs', {
   appendFile: fs.appendFile,
+  write(id, content) {},
 });
 contextBridge.exposeInMainWorld('electronPath', {
   path: path,

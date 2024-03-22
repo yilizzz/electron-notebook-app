@@ -1,4 +1,3 @@
-import { BrowserWindow } from 'electron';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
